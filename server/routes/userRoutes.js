@@ -25,19 +25,17 @@ router.post('/register', async (req, res) => {
 
         //Hash the password: 
         const salt = await bcrypt.genSalt(10);
-        console.log('Generated salt:', salt);
         const hashedPassword = await bcrypt.hash(password, salt);
-        console.log("Generated password:", hashedPassword);
 
         //Create a new user: 
         const newUser = new User({
             username, 
             password: hashedPassword, //store hashed password
             tasks: [
-                        {taskType: "Med en gang", tasks: [] },
+                        {taskType: "Med ein gong", tasks: [] },
                         {taskType: "Snart", tasks: [] },
-                        {taskType: "Om en stund", tasks: [] }
-                    ] // Empty tasks array for now
+                        {taskType: "Om ei stund", tasks: [] }
+                    ] 
         });
 
         //Save user to the database: 
