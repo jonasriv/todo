@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "taskType": "Med ein gong",
+    "tasks": [
+      {
+        "name": "Catch up 1020",
+        "completed": true
+      },
+      {
+        "name": "Se Acolyte med Mattis( Viktig!!!!)",
+        "completed": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "taskType": "Snart",
+    "tasks": [
+      {
+        "name": "Rense takrenner",
+        "completed": false
+      },
+      {
+        "name": "Vaske utvendig",
+        "completed": false
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "taskType": "Om ei stund",
+    "tasks": [
+      {
+        "name": "Fikse vindskier",
+        "completed": false
+      },
+      {
+        "name": "Fikse gjerder",
+        "completed": false
+      }
+    ]
+  }
+]
